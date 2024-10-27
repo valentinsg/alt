@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Provider } from "./components/ui/provider"
+import Header from './components/appComponents/Header';
+import AboutUs from './components/appComponents/AboutUs';
+import Contact from './components/appComponents/Contact';
+import MainContent from './components/appComponents/MainContent';
+import Projects from './components/appComponents/Projects';
+import ToggleColorModeButton from './components/ui/ToggleColorModeButton';
+import { Flex } from '@chakra-ui/react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider>
+      <Header />
+      <Flex alignItems={"center"} flexDir={"column"} gap={10}>
+        <ToggleColorModeButton />
+        <MainContent />
+        <Projects />
+        <AboutUs />
+        <Contact />
+      </Flex>
+    </Provider>
+
   );
 }
 
