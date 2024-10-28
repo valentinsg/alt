@@ -30,6 +30,7 @@ interface NativeSelectField extends Select.FieldProps {
   items?: Array<string | NativeSelectItem>
 }
 
+// eslint-disable-next-line @typescript-eslint/no-redeclare
 export const NativeSelectField = forwardRef<
   HTMLSelectElement,
   NativeSelectField
