@@ -16,7 +16,7 @@ const Header: React.FC = () => {
       width="100%"
       zIndex="1000"
       boxShadow="md"
-      p={6}
+      p={12}
     >
       <nav>
       <Link href="#home" mx="2">Inicio</Link>

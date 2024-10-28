@@ -13,10 +13,10 @@ function App() {
     <Provider>
       <Box>
         <Header />
-        <Flex alignItems={"center"} flexDir={"column"} gap={10} >
+        <Flex alignItems={"center"} flexDir={"column"} >
           <MainContent />
-          <Projects />
           <AboutUs />
+          <Projects />
           <Contact />
         </Flex>
       </Box>

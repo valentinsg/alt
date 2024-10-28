@@ -1,5 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 
+@font-face {
+  font-family: "League Spartan";
+  src: url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+}
+
+@font-face {
+  font-family: "Aliens And Cows";
+  src: url('./assets/fonts/aliensandcows_trial.ttf');
+}
+
+@font-face {
+  font-family: "Aliens Among Us";
+  src: url('./assets/fonts/AliensAmongUs.ttf');
+}
+
+@font-face {
+  font-family: "Alien Spaceship";
+  src: url('./assets/fonts/AlienSpaceship.ttf');
+}
+
+@font-face {
+  font-family: "Arial Narrow 7";
+  src: url('./assets/fonts/arial_narrow_7.ttf');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

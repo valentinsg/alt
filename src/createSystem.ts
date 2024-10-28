@@ -5,8 +5,12 @@ export const system = createSystem(defaultConfig, {
     tokens: {
       fonts: {
         heading: { value: `'League Spartan', sans-serif` },
-        body: { value: `'Figtree', sans-serif` },
+        alien: { value: `'Alien Spaceship'` },
       },
+      colors: {
+        brand: {
+          100: { value: "#7ed957" },
+        },
     },
   },
-})
+}})
